@@ -1,0 +1,70 @@
+.hero {
+  padding: 100px 120px;
+  margin: 0 auto;
+  width: 1440px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(/img/bck_hero.jpg);
+  &__title {
+    font-family: "Ermilov";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 0.9;
+    color: var(--color-white-primary);
+    margin-bottom: 35px;
+  }
+  &__promotion {
+    font-family: "Ermilov";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.1;
+    color: var(--color-white-primary);
+  }
+  &__button {
+    font-family: "Ermilov";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 0.9;
+    color: var(--color-white-primary);
+
+    margin-left: 700px;
+    margin-bottom: 30px;
+    background: #ef1e23;
+    border-radius: 15px;
+    padding: 18px 66px;
+    &--text {
+      color: var(--color-white-primary);
+    }
+  }
+}
+
+.hero-contact {
+  width: 100%;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.1;
+    color: var(--color-white-primary);
+  }
+  &__item--flex {
+    display: flex;
+    align-items: center;
+  }
+  &__svg {
+    margin-right: 16px;
+    fill: var(--color-red-primary);
+  }
+}

@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Viva Pizza</title>
   <link rel="stylesheet" href="./css/main.min.css">
+
 </head>
 
 <body>
@@ -16,9 +17,10 @@
   <header>
     <div class="container">
       <div class="header-container">
+
         <div class="logo">
           <a href="./index.html">
-            <svg class="logo__header">
+            <svg class="logo__header" width="222" height="38">
               <use href="./svg/symbol-defs.svg#icon-logo"></use>
             </svg>
           </a>
@@ -32,18 +34,15 @@
             <li class="menu__item"><a class="menu__link" href="">соуси</a></li>
             <li class="menu__item"><a class="menu__link" href="">напої</a></li>
             <li class="menu__item"><a class="menu__link" href="">акції</a></li>
-          </ul>
-        </nav>
-
-        <div>
-          <ul class="order">
-            <li><a href="">доставка і оплата</a></li>
-            <li><a href=""><svg width="32" height="32">
+            <li class="menu__item"><a class="menu__link" href="">доставка і оплата</a></li>
+            <li class="menu__item"><a class="menu__link" href="">
+                <svg width="32" height="32">
                   <use href="./svg/symbol-defs.svg#icon-basket"></use>
                 </svg> </a>
             </li>
+
           </ul>
-        </div>
+        </nav>
 
       </div>
     </div>
@@ -52,51 +51,59 @@
   <!-- MAIN -->
   <main>
 
-    <div class="container">
+    <section class="">
 
-      <div>
-        <h1>Пропозиція тижня</h1>
-        <strong>Піца Прошуто за акційною ціною</strong>
+      <div class="hero">
+        <div class="present">
+          <h1 class="hero__title">Пропозиція тижня</h1>
+          <strong class="hero__promotion">Піца Прошуто за <br> акційною ціною</strong>
+        </div>
+
+        <div class="hero-contact">
+          <button class="hero__button" type="button">
+            <a class="hero__button--text" href="">Замовити</a>
+          </button>
+
+          <ul class="info">
+            <li class="info__item info__item--flex">
+              <div>
+                <svg class="info__svg" width="58" height="58">
+                  <use href="./svg/symbol-defs.svg#icon-tel"></use>
+                </svg>
+              </div>
+
+              <ul class="contact-tel">
+                <li class="contact-tel__item">
+                  <p class="contact-tel__text">(066)</p>
+                </li>
+                <li class="contact-tel__item">
+                  <p class="contact-tel__text">(096)<span class="contact-tel__span">-944-40-30</span></p>
+                </li>
+                <li class="contact-tel__item">
+                  <p class="contact-tel__text">(063)</p>
+                </li>
+              </ul>
+            </li>
+            <li class="info__item">
+              <svg class="info__svg" width="58" height="58">
+                <use href="./svg/symbol-defs.svg#icon-clock"></use>
+              </svg>
+              Працюємо з <br>
+              10:00 до 23:00
+            </li>
+            <li class="info__item">
+              <svg class="info__svg" width="58" height="58">
+                <use href="./svg/symbol-defs.svg#icon-house"></use>
+              </svg>
+              Безкоштовна доставка <br>
+              по м. Ужгород
+            </li>
+          </ul>
+        </div>
 
       </div>
-      <div>
-        <button>
-          <a href="">замовити</a>
-        </button>
-        <ul>
-          <li>
-            <svg width="32" height="32">
-              <use href="./svg/symbol-defs.svg#icon-tel"></use>
-            </svg>
-            <ul>
-              <li>
-                <p>(066)</p>
-              </li>
-              <li>
-                <p>(096)-944-40-30</p>
-              </li>
-              <li>
-                <p>(063)</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <svg width="32" height="32">
-              <use href="./svg/symbol-defs.svg#icon-clock"></use>
-            </svg>
-            <p>Працюємо з
-              10:00 до 23:00</p>
-          </li>
-          <li>
-            <svg width="32" height="32">
-              <use href="./svg/symbol-defs.svg#icon-house"></use>
-            </svg>
-            <p>Безкоштовна доставка
-              по м. Ужгород</p>
-          </li>
-        </ul>
-      </div>
-    </div>
+
+    </section>
 
     <section class="benefits">
       <img src="" alt="">

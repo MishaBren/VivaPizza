@@ -1,10 +1,45 @@
+header {
+  width: 1440px;
+  background: url(/img/bck_hero.jpg);
+  margin: 0 auto;
+}
+
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+
+  // background: linear-gradient(
+  //   180deg,
+  //   #101010 18.52%,
+  //   rgba(16, 16, 16, 0) 83.95%
+  // );
 }
 
+.logo {
+  &__header {
+    fill: var(--color-red-primary);
+  }
+}
 .menu {
   display: flex;
+  align-items: center;
+  &__item {
+    text-transform: uppercase;
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
+  }
+  &__link {
+    font-family: "KTF Jermilov";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4px;
+    color: var(--color-white-primary);
+  }
 }
 
 .order {
