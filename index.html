@@ -2,7 +2,6 @@
 <html lang="en">
 
 <!-- HEAD -->
-<!-- HEAD -->
 
 <head>
   <meta charset="UTF-8">
@@ -16,39 +15,43 @@
   <!-- HEADER -->
   <header>
     <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <a href="./index.html">
+            <svg class="logo__header">
+              <use href="./svg/symbol-defs.svg#icon-logo"></use>
+            </svg>
+          </a>
+        </div>
 
-      <div class="logo">
-        <a href="./index.html">
-          <svg class="logo__header">
-            <use href="./svg/symbol-defs.svg#icon-logo"></use>
-          </svg>
-        </a>
-      </div>
+        <nav>
+          <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="">піца</a></li>
+            <li class="menu__item"><a class="menu__link" href="">конструктор піци</a></li>
+            <li class="menu__item"><a class="menu__link" href="">суші</a></li>
+            <li class="menu__item"><a class="menu__link" href="">соуси</a></li>
+            <li class="menu__item"><a class="menu__link" href="">напої</a></li>
+            <li class="menu__item"><a class="menu__link" href="">акції</a></li>
+          </ul>
+        </nav>
 
-      <nav>
-        <ul class="menu">
-          <li class="menu__item"><a class="menu__link" href="">піца</a></li>
-          <li class="menu__item"><a class="menu__link" href="">конструктор піци</a></li>
-          <li class="menu__item"><a class="menu__link" href="">суші</a></li>
-          <li class="menu__item"><a class="menu__link" href="">соуси</a></li>
-          <li class="menu__item"><a class="menu__link" href="">напої</a></li>
-          <li class="menu__item"><a class="menu__link" href="">акції</a></li>
-        </ul>
-      </nav>
+        <div>
+          <ul class="order">
+            <li><a href="">доставка і оплата</a></li>
+            <li><a href=""><svg width="32" height="32">
+                  <use href="./svg/symbol-defs.svg#icon-basket"></use>
+                </svg> </a>
+            </li>
+          </ul>
+        </div>
 
-      <div class="order">
-        <ul>
-          <li><a href="">доставка і оплата</a></li>
-          <li><a href=""><svg width="32" height="32">
-                <use href="./svg/symbol-defs.svg#icon-basket"></use>
-              </svg> </a>
-          </li>
-        </ul>
       </div>
     </div>
   </header>
+
   <!-- MAIN -->
   <main>
+
     <div class="container">
 
       <div>
@@ -93,8 +96,8 @@
           </li>
         </ul>
       </div>
-
     </div>
+
     <section class="benefits">
       <img src="" alt="">
       <div>
@@ -120,6 +123,8 @@
     </section>
 
   </main>
+
+
   <!-- FOOTER -->
   <footer class="footer-background">
     <img src="./png/pizza-footer.png" alt="" />
