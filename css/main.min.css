@@ -1,1 +1,77 @@
-*,*::before,*::after{box-sizing:border-box}address{font-style:normal}h1,h2,h3,h4,h5,h6{margin:0}ul,ol{margin:0;padding:0;list-style-type:none}a{display:inline-block}p{margin:0}fieldset{margin:0;padding:0;border:0}legend{padding:0}img{max-width:100%;display:block}.container{width:100%;padding-left:15px;padding-right:15px;margin:0 auto;background-color:red}/*# sourceMappingURL=main.min.css.map */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+address {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+}
+
+p {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Mazzard H";
+  src: url("/fonts/MazzardH-Regular.woff2") format("woff2"), url("/fonts/MazzardH-Regular.woff") format("woff"), url("/fonts/MazzardH-Regular.ttf") format("truetype"), url("/fonts/MazzardH-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "KTF Jermilov Solid";
+  src: url("/fonts/KTFJermilov-Solid.woff2") format("woff2"), url("/fonts/KTFJermilov-Solid.woff") format("woff"), url("/fonts/KTFJermilov-Solid.ttf") format("truetype"), url("/fonts/KTFJermilov-Solid.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ermilov";
+  src: url("/fonts/Ermilov-Bold.woff2") format("woff2"), url("/fonts/Ermilov-Bold.woff") format("woff"), url("/fonts/Ermilov-Bold.ttf") format("truetype"), url("/fonts/Ermilov-Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}/*# sourceMappingURL=main.min.css.map */
