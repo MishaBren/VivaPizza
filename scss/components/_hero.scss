@@ -25,6 +25,9 @@
     color: var(--color-white-primary);
   }
   &__button {
+    color: var(--color-white-primary);
+    padding: 18px 66px;
+
     font-family: "Ermilov";
     font-style: normal;
     font-weight: 700;
@@ -36,9 +39,9 @@
     margin-bottom: 30px;
     background: #ef1e23;
     border-radius: 15px;
-    padding: 18px 66px;
     &--text {
       color: var(--color-white-primary);
+      padding: 18px 66px;
     }
   }
 }
@@ -67,4 +70,11 @@
     margin-right: 16px;
     fill: var(--color-red-primary);
   }
+}
+.akcio {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  width: 720px;
+  height: 450px;
 }
