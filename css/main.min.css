@@ -50,7 +50,6 @@ legend {
 }
 
 img {
-  max-width: 100%;
   display: block;
 }
 
@@ -272,6 +271,8 @@ summary {
 
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -341,6 +342,7 @@ header {
 }
 
 .hero {
+  position: relative;
   padding: 100px 120px;
   margin: 0 auto;
   width: 1440px;
@@ -411,10 +413,54 @@ header {
   fill: var(--color-red-primary);
 }
 
-.akcio {
+.sale {
   position: absolute;
-  right: 20%;
-  top: 10%;
-  width: 720px;
-  height: 450px;
+  right: 5%;
+  top: -5%;
+  width: 700px;
+  height: 600px;
+}
+
+.breakaway-hero {
+  position: absolute;
+  width: 1440px;
+  bottom: 0;
+  left: 0;
+}
+
+.benefits {
+  background-image: url(/png/bgr_section2.png);
+  width: 1440px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+.benefits__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+.benefits__item {
+  width: 420px;
+  height: 210px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #EF1E23;
+}
+.benefits__item:nth-child(2n+1) {
+  margin-right: 114px;
+}
+.benefits__item:nth-child(-n+2) {
+  margin-bottom: 66px;
+}
+.benefits__text {
+  width: 200px;
+  font-family: "Ermilov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  color: #EF1E23;
 }/*# sourceMappingURL=main.min.css.map */

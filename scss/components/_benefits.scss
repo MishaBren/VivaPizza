@@ -1,0 +1,48 @@
+.benefits {
+  background-image: url(/png/bgr_section2.png);
+  width: 1440px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: relative;
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    
+  }
+
+  &__item {
+    &:nth-child(2n + 1) {
+      margin-right: 114px;
+    }
+
+    &:nth-child(-n + 2) {
+      margin-bottom: 66px;
+    }
+    
+    width: 420px; 
+    height: 210px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #EF1E23;
+
+  }
+
+  &__text {
+    width: 200px;
+    font-family: 'Ermilov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #EF1E23;
+  }
+
+  &:nth-child(2n + 1) {
+    
+  }
+}
+

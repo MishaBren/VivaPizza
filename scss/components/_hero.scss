@@ -1,4 +1,5 @@
 .hero {
+  position: relative;
   padding: 100px 120px;
   margin: 0 auto;
   width: 1440px;
@@ -71,10 +72,18 @@
     fill: var(--color-red-primary);
   }
 }
-.akcio {
+.sale{
   position: absolute;
-  right: 20%;
-  top: 10%;
-  width: 720px;
-  height: 450px;
+  right: 5%;
+  top: -5%;
+  width: 700px;
+  height: 600px;
+}
+
+.breakaway-hero {
+  position: absolute;
+  width: 1440px;
+  bottom: 0;
+  left: 0;
+
 }
