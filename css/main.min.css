@@ -270,9 +270,19 @@ summary {
   display: list-item;
 }
 
+.section {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .container {
   width: 1200px;
+  padding: 0 15px;
   margin: 0 auto;
+}
+
+.body {
+  font-family: "Ermilov";
 }
 
 @font-face {
@@ -298,8 +308,10 @@ summary {
 }
 header {
   position: relative;
-  width: 1440px;
   background: url(/img/bck_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -307,25 +319,24 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  height: 80px;
 }
 
 .logo__header {
   fill: var(--color-red-primary);
 }
 
-.menu {
+.menu-header {
+  padding: 18px 0;
   display: flex;
   align-items: center;
 }
-.menu__item {
+.menu-header__item {
   text-transform: uppercase;
 }
-.menu__item:not(:last-child) {
+.menu-header__item:not(:last-child) {
   margin-right: 35px;
 }
-.menu__link {
+.menu-header__link {
   font-family: "KTF Jermilov Solid";
   font-style: normal;
   font-weight: 400;
@@ -340,19 +351,22 @@ header {
   justify-content: flex-end;
 }
 
+.section--bck {
+  background: url(/img/bck_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .hero {
-  padding: 100px 120px;
-  margin: 0 auto;
-  width: 1440px;
-  height: 700px;
+  position: relative;
+  height: 800px;
+  padding-top: 50px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: url(/img/bck_hero.jpg);
 }
 .hero__title {
-  font-family: "Ermilov";
-  font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 0.9;
@@ -360,30 +374,21 @@ header {
   margin-bottom: 35px;
 }
 .hero__promotion {
-  font-family: "Ermilov";
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.1;
   color: var(--color-white-primary);
 }
 .hero__button {
+  background: var(--color-red-primary);
+  border-radius: 15px;
   color: var(--color-white-primary);
   padding: 18px 66px;
-  font-family: "Ermilov";
-  font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 0.9;
-  color: var(--color-white-primary);
   margin-left: 700px;
   margin-bottom: 30px;
-  background: #ef1e23;
-  border-radius: 15px;
-}
-.hero__button--text {
-  color: var(--color-white-primary);
-  padding: 18px 66px;
 }
 
 .hero-contact {
@@ -411,10 +416,49 @@ header {
   fill: var(--color-red-primary);
 }
 
-.akcio {
+.sale {
   position: absolute;
   right: 20%;
   top: 10%;
   width: 720px;
   height: 450px;
+}
+
+.product {
+  text-align: center;
+}
+.product__title {
+  font-family: "KTF Jermilov Solid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.4;
+  color: #333333;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.product__button {
+  font-family: "Ermilov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+  color: var(--color-white-primary);
+  background: var(--color-red-primary);
+  border-radius: 15px;
+  border: none;
+  padding: 16px 36px;
+}
+
+.menu {
+  display: flex;
+}
+.menu__item:not(:last-child) {
+  margin-right: 85px;
+}
+.menu__link {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+  color: rgba(51, 51, 51, 0.7);
 }/*# sourceMappingURL=main.min.css.map */

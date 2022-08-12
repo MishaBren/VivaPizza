@@ -1,0 +1,41 @@
+.product {
+  text-align: center;
+  &__title {
+    font-family: "KTF Jermilov Solid";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.4;
+    color: #333333;
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+  &__button {
+    font-family: "Ermilov";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+    color: var(--color-white-primary);
+
+    background: var(--color-red-primary);
+    border-radius: 15px;
+    border: none;
+    padding: 16px 36px;
+  }
+}
+
+.menu {
+  display: flex;
+  &__item {
+    &:not(:last-child) {
+      margin-right: 85px;
+    }
+  }
+  &__link {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 0.7);
+  }
+}

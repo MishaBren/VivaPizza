@@ -1,14 +1,13 @@
-.container {
-  width: 1200px;
-  // padding-left: 15px;
-  // padding-right: 15px;
+.section {
+  width: 1440px;
   margin: 0 auto;
-
 }
 
-
-  
-
-  // outline: 1px solid red;
-
-
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.body {
+  font-family: "Ermilov";
+}
