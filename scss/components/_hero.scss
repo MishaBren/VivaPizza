@@ -1,5 +1,7 @@
 .section--bck {
-  background: url(/img/bck_hero.jpg);
+  position: relative;
+
+  background-image: url(/img/bck_hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
