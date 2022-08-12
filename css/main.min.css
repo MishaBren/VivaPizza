@@ -474,7 +474,6 @@ header {
   width: 1440px;
   background-repeat: no-repeat;
   margin: 0 auto;
-  position: relative;
 }
 .benefits__list {
   display: flex;
@@ -484,6 +483,7 @@ header {
   padding-bottom: 190px;
 }
 .benefits__item {
+  position: relative;
   width: 420px;
   height: 210px;
   border-radius: 15px;
@@ -496,8 +496,29 @@ header {
 .benefits__item:nth-child(-n+2) {
   margin-bottom: 66px;
 }
+.benefits__item:nth-child(2n) {
+  padding-top: 80px;
+  padding-left: 45px;
+}
+.benefits__item:nth-child(2n+1) {
+  padding-top: 80px;
+  padding-left: 180px;
+}
+.benefits__picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, 0%);
+}
+.benefits__picture3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -22%);
+  width: 261px;
+  height: 270px;
+}
 .benefits__text {
-  width: 200px;
   font-family: "Ermilov";
   font-style: normal;
   font-weight: 700;
