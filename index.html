@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- HEAD -->
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,7 @@
 
 <body>
   <!-- HEADER -->
-  <header>
+  <header class="section">
     <div class="container">
       <div class="header-container">
 
@@ -26,17 +27,17 @@
         </div>
 
         <nav>
-          <ul class="menu">
-            <li class="menu__item"><a class="menu__link" href="">піца</a></li>
-            <li class="menu__item"><a class="menu__link" href="">конструктор піци</a></li>
-            <li class="menu__item"><a class="menu__link" href="">суші</a></li>
-            <li class="menu__item"><a class="menu__link" href="">соуси</a></li>
-            <li class="menu__item"><a class="menu__link" href="">напої</a></li>
-            <li class="menu__item"><a class="menu__link" href="">акції</a></li>
-            <li class="menu__item"><a class="menu__link" href="">доставка і оплата</a></li>
-            <li class="menu__item"><a class="menu__link" href="">
+          <ul class="menu-header">
+            <li class="menu-header__item"><a class="menu-header__link" href="">піца</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="">конструктор піци</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="">суші</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="">соуси</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="">напої</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="">акції</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="">доставка і оплата</a></li>
+            <li class="menu-header__item"><a class="menu-header__link" href="">
                 <svg width="32" height="32">
-                  <use href="./svg/symbol-defs.svg#icon-basket"></use>
+                  <use href="./svg/symbol-defs.svg#icon-basket_1"></use>
                 </svg> </a>
             </li>
 
@@ -49,75 +50,88 @@
 
   <!-- MAIN -->
   <main>
+    <!-- HERO -->
+    <section class="section section--bck">
+      <div class="container">
+        <div class="hero">
+          <div class="present">
+            <h1 class="hero__title">Пропозиція тижня</h1>
+            <strong class="hero__promotion">Піца Прошуто за <br> акційною ціною</strong>
+          </div>
 
-    <section>
+          <div class="hero-contact">
+            <button class="hero__button" type="button">Замовити</button>
 
-      <div class="hero">
-        <div class="present">
-          <h1 class="hero__title">Пропозиція тижня</h1>
-          <strong class="hero__promotion">Піца Прошуто за <br> акційною ціною</strong>
-        </div>
+            <ul class="info">
+              <li class="info__item info__item--flex">
+                <div>
+                  <svg class="info__svg" width="58" height="58">
+                    <use href="./svg/symbol-defs.svg#icon-tel"></use>
+                  </svg>
+                </div>
 
-        <div class="hero-contact">
-          <button class="hero__button" type="button">Замовити</button>
-
-          <ul class="info">
-            <li class="info__item info__item--flex">
-              <div>
+                <ul class="contact-tel">
+                  <li class="contact-tel__item">
+                    <p class="contact-tel__text">(066)</p>
+                  </li>
+                  <li class="contact-tel__item">
+                    <p class="contact-tel__text">(096)<span class="contact-tel__span">-944-40-30</span></p>
+                  </li>
+                  <li class="contact-tel__item">
+                    <p class="contact-tel__text">(063)</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="info__item">
                 <svg class="info__svg" width="58" height="58">
-                  <use href="./svg/symbol-defs.svg#icon-tel"></use>
+                  <use href="./svg/symbol-defs.svg#icon-clock"></use>
                 </svg>
-              </div>
-
-              <ul class="contact-tel">
-                <li class="contact-tel__item">
-                  <p class="contact-tel__text">(066)</p>
-                </li>
-                <li class="contact-tel__item">
-                  <p class="contact-tel__text">(096)<span class="contact-tel__span">-944-40-30</span></p>
-                </li>
-                <li class="contact-tel__item">
-                  <p class="contact-tel__text">(063)</p>
-                </li>
-              </ul>
-            </li>
-            <li class="info__item">
-              <svg class="info__svg" width="58" height="58">
-                <use href="./svg/symbol-defs.svg#icon-clock"></use>
-              </svg>
-              Працюємо з <br>
-              10:00 до 23:00
-            </li>
-            <li class="info__item">
-              <svg class="info__svg" width="58" height="58">
-                <use href="./svg/symbol-defs.svg#icon-house"></use>
-              </svg>
-              Безкоштовна доставка <br>
-              по м. Ужгород
-            </li>
-          </ul>
+                Працюємо з <br>
+                10:00 до 23:00
+              </li>
+              <li class="info__item">
+                <svg class="info__svg" width="58" height="58">
+                  <use href="./svg/symbol-defs.svg#icon-house"></use>
+                </svg>
+                Безкоштовна доставка <br>
+                по м. Ужгород
+              </li>
+            </ul>
+          </div>
+          <img class="sale" src="./png/pizzafon.png" alt="">
         </div>
         <img class="sale" src="./png/pizzafon.png" alt="">
         <img class="breakaway-hero" src="./png/breakaway_hero.png" alt="">
 
       </div>
-
     </section>
 
-    <section class="product">
-      <h2>Меню</h2>
-      <ul class="menu">
-        <li class="menu__item"><a class="menu__link" href=""> </a></li>
-        <li class="menu__item"><a class="menu__link" href=""></a></li>
-        <li class="menu__item"><a class="menu__link" href=""></a></li>
-        <li class="menu__item"><a class="menu__link" href=""></a></li>
-        <li class="menu__item"><a class="menu__link" href=""></a></li>
-      </ul>
-    </section>
 
-    <section class="benefits container">
+    <!-- PRODUCT -->
+    <!-- <section class="product">
+
+      <div class="container">
+        <h2 class="product__title">Меню</h2>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="">Піца</a></li>
+          <li class="menu__item"><a class="menu__link" href="">Конструктор піци</a></li>
+          <li class="menu__item"><a class="menu__link" href="">Суші</a></li>
+          <li class="menu__item"><a class="menu__link" href="">Соуси</a></li>
+          <li class="menu__item"><a class="menu__link" href="">Напої</a></li>
+        </ul>
+
+        <button class="product__button" type="button">
+          Переглянути все
+        </button>
+      </div>
+    </section> -->
+    
+    
+    
+    <!-- BENEFITS -->
+         <section class="benefits container">
       <img class="breakaway-section" src="./png/breakaway_section.png" alt="">
-      <div>
+             <div>
         <ul class="benefits__list">
           <li class="benefits__item">
             <!-- <img src="./png/picture1.png" alt=""> -->
@@ -137,12 +151,12 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
 
   </main>
 
   <!-- FOOTER -->
-  <footer class="footer-background">
+  <!-- <footer class="footer-background">
     <img src="./png/pizza-footer.png" alt="" />
     <div>
       <ul class="footer-menu">
@@ -175,7 +189,7 @@
       </svg>
       <a href="">(066)/(096)/(063)-944-40-30</a>
     </div>
-  </footer>
+  </footer> -->
 </body>
 
 </html>

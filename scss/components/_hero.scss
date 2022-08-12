@@ -1,16 +1,22 @@
+.section--bck {
+  background: url(/img/bck_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .hero {
   position: relative;
-  padding: 100px 120px;
-  margin: 0 auto;
-  width: 1440px;
-  height: 700px;
+
+
+  height: 800px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: url(/img/bck_hero.jpg);
+
   &__title {
-    font-family: "Ermilov";
-    font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 0.9;
@@ -18,32 +24,22 @@
     margin-bottom: 35px;
   }
   &__promotion {
-    font-family: "Ermilov";
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.1;
     color: var(--color-white-primary);
   }
   &__button {
+    background: var(--color-red-primary);
+    border-radius: 15px;
+
     color: var(--color-white-primary);
     padding: 18px 66px;
-
-    font-family: "Ermilov";
-    font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 0.9;
-    color: var(--color-white-primary);
-
     margin-left: 700px;
     margin-bottom: 30px;
-    background: #ef1e23;
-    border-radius: 15px;
-    &--text {
-      color: var(--color-white-primary);
-      padding: 18px 66px;
-    }
   }
 }
 
@@ -57,7 +53,6 @@
   &__item {
     display: flex;
     align-items: center;
-
     font-weight: 700;
     font-size: 22px;
     line-height: 1.1;
@@ -72,7 +67,8 @@
     fill: var(--color-red-primary);
   }
 }
-.sale{
+
+.sale {
   position: absolute;
   right: 5%;
   top: -5%;
