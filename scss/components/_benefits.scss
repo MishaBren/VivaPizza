@@ -3,18 +3,21 @@
   width: 1440px;
   background-repeat: no-repeat;
   margin: 0 auto;
-  position: relative;
+
 
   &__list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
     padding-top: 190px;
     padding-bottom: 190px;
     
   }
 
   &__item {
+  
+    position: relative;
     &:nth-child(2n + 1) {
       margin-right: 114px;
     }
@@ -22,27 +25,67 @@
     &:nth-child(-n + 2) {
       margin-bottom: 66px;
     }
+
+    &:nth-child(2n) {
+      padding-right: 70px;
+    padding-top: 80px;
+    padding-left: 45px;
+  }
+
+    &:nth-child(2n + 1){
+    padding-top: 80px;
+    padding-left: 180px;
+  }
     
     width: 420px; 
     height: 210px;
     border-radius: 15px;
     background-color: #fff;
     box-shadow: 0px 0px 20px #EF1E23;
-
   }
 
+  &__picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, 0%);
+  }
+
+  &__pictur2 {
+    position: absolute;
+    top: 20%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  &__picture3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -22%);
+    width: 261px;
+    height: 270px;
+  }
+
+  &__picture4 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-57%, -13%);
+  }
+
+
   &__text {
-    width: 200px;
+    padding-right: 50px;
     font-family: 'Ermilov';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 100%;
     color: #EF1E23;
-  }
-
-  &:nth-child(2n + 1) {
     
   }
+
 }
 
