@@ -497,6 +497,7 @@ header {
   margin-bottom: 66px;
 }
 .benefits__item:nth-child(2n) {
+  padding-right: 70px;
   padding-top: 80px;
   padding-left: 45px;
 }
@@ -510,6 +511,12 @@ header {
   left: 0;
   transform: translate(-50%, 0%);
 }
+.benefits__pictur2 {
+  position: absolute;
+  top: 20%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
 .benefits__picture3 {
   position: absolute;
   top: 0;
@@ -518,7 +525,14 @@ header {
   width: 261px;
   height: 270px;
 }
+.benefits__picture4 {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transform: translate(-57%, -13%);
+}
 .benefits__text {
+  padding-right: 50px;
   font-family: "Ermilov";
   font-style: normal;
   font-weight: 700;
