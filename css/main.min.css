@@ -285,6 +285,11 @@ summary {
   font-family: "Ermilov";
 }
 
+main {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: "Mazzard H";
   src: url("/fonts/MazzardH-Regular.woff2") format("woff2"), url("/fonts/MazzardH-Regular.woff") format("woff"), url("/fonts/MazzardH-Regular.ttf") format("truetype"), url("/fonts/MazzardH-Regular.svg") format("svg");
@@ -448,7 +453,6 @@ header {
   font-size: 28px;
   line-height: 1.4;
   color: #333333;
-  margin-top: 100px;
   margin-bottom: 60px;
 }
 .section-product__button {
@@ -572,17 +576,30 @@ header {
 }
 
 .benefits {
-  background-image: url(/png/bgr_section2.png);
-  width: 1440px;
+  background-color: rgb(17, 17, 17);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/img/bck_hero.jpg);
   background-repeat: no-repeat;
-  margin: 0 auto;
+  background-position: center;
+  text-align: center;
+}
+.benefits__title {
+  font-family: "KTF Jermilov Solid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  color: var(--color-white-primary);
+  margin-top: 80px;
 }
 .benefits__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 190px;
-  padding-bottom: 190px;
+  padding-top: 80px;
+  padding-bottom: 170px;
 }
 .benefits__item {
   position: relative;
@@ -590,7 +607,7 @@ header {
   height: 210px;
   border-radius: 15px;
   background-color: #fff;
-  box-shadow: 0px 0px 20px #EF1E23;
+  box-shadow: 0px 0px 20px #ef1e23;
 }
 .benefits__item:nth-child(2n+1) {
   margin-right: 114px;
@@ -640,8 +657,9 @@ header {
   font-weight: 700;
   font-size: 28px;
   line-height: 100%;
-  color: #EF1E23;
+  color: #ef1e23;
 }
+
 .footer-background {
   background-color: var(--color-red-primary);
   background-size: cover;
@@ -662,6 +680,8 @@ header {
   margin-bottom: 22px;
 }
 .footer-menu__link {
+  font-family: "KTF Jermilov Solid";
+  font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.4;
@@ -673,6 +693,8 @@ header {
   margin-left: 50px;
 }
 .footer-tel__link {
+  font-family: "KTF Jermilov Solid";
+  font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 31px;
