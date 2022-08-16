@@ -308,11 +308,13 @@ summary {
 }
 header {
   position: relative;
-  background-image: linear-gradient(180deg, #101010 40.52%, rgba(16, 16, 16, 0) 83.95%), url(/img/bck_hero.jpg);
+  background-color: rgb(17, 17, 17);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/img/bck_hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .header-container {
@@ -353,6 +355,10 @@ header {
 
 .section--bck {
   position: relative;
+  background-color: rgb(17, 17, 17);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(/img/bck_hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -600,4 +606,47 @@ header {
   font-size: 28px;
   line-height: 100%;
   color: #EF1E23;
+}
+.footer-background {
+  background-color: var(--color-red-primary);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+
+.footer-menu-box {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.footer-menu__item:not(:last-child) {
+  margin-bottom: 22px;
+}
+.footer-menu__link {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.4;
+  color: var(--color-white-primary);
+}
+
+.footer-tel {
+  text-align: center;
+  margin-left: 50px;
+}
+.footer-tel__link {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  color: var(--color-white-primary);
+}
+.footer-tel__svg {
+  margin-right: 10px;
+}
+.footer-tel__map {
+  left: 0;
+  top: 35px;
 }/*# sourceMappingURL=main.min.css.map */
