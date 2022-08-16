@@ -1,0 +1,46 @@
+.footer-background {
+  background-color: var(--color-red-primary);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+}
+
+.footer-menu-box {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.footer-menu {
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 22px;
+    }
+  }
+  &__link {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4;
+    color: var(--color-white-primary);
+  }
+}
+.footer-tel {
+  text-align: center;
+  margin-left: 50px;
+  &__link {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: var(--color-white-primary);
+  }
+  &__svg {
+    margin-right: 10px;
+  }
+  &__map {
+    left: 0;
+    top: 35px;
+  }
+}
