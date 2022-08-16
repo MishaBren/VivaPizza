@@ -308,11 +308,13 @@ summary {
 }
 header {
   position: relative;
-  background-image: linear-gradient(180deg, #101010 40.52%, rgba(16, 16, 16, 0) 83.95%), url(/img/bck_hero.jpg);
+  background-color: rgb(17, 17, 17);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/img/bck_hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .header-container {
@@ -353,6 +355,10 @@ header {
 
 .section--bck {
   position: relative;
+  background-color: rgb(17, 17, 17);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(/img/bck_hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
